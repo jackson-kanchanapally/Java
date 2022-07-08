@@ -22,7 +22,7 @@ class ThreadRun2 implements Runnable{
 public class ThreadsWithRunnable {
     public static void main(String[] args) {
 
-        // When using Runnable we cannot directly use the start() method on the object 
+        // When using Runnable Interface we cannot directly use the start() method on the object 
 
         // So an object is created from Thread class and the start() method is used on that object 
 
