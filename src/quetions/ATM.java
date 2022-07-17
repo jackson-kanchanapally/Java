@@ -48,7 +48,7 @@ public class ATM {
     }
 
     static int withdrawal(int amount, int balance) {
-        if (amount > balance) {
+        if (amount >= balance) {
             System.out.println("Amount is more than your balance");
         } else {
             balance = balance - amount;
