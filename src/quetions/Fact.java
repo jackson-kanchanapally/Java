@@ -10,6 +10,6 @@ public class Fact {
         for (int i = 1; i <= val; i++) {
             fact = fact * i;
         }
-        System.out.println();
+        System.out.println("The factorial of "+val+" is "+fact);
     }
 }
