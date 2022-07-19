@@ -6,10 +6,10 @@ public class Fact {
         Scanner in=new Scanner(System.in);
         System.out.println("Enter the value :");
         a=in.nextInt();
-        for(int i=a;i>0;i--)
+        for(int i=1;i<=a;i++)
         {
             
         }
-
+        System.out.println(a);
     }
 }
