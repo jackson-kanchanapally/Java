@@ -5,7 +5,7 @@ public class Fact {
         int a;
         Scanner in=new Scanner(System.in);
         System.out.println("Enter the value :");
-        
+        a=in.nextInt();
 
     }
 }
