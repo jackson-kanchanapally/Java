@@ -3,10 +3,12 @@ import java.applet.*;
 import java.awt.event.*;
 
 // <applet code="Fact" width=500 height=250></applet>
+
 public class Fact extends Applet implements ActionListener{
 Label l1,l2;
 TextField t1,t2;
 Button b1;
+
 public void init()
 {
     l1=new Label("enter number :");
@@ -19,16 +21,17 @@ public void init()
     add(t2);
     b1=new Button("Compute");
 }
+
 public void actionPerformed (ActionEvent e){
     if(e.getSource()==b1)
     {
-        int value=Integer.parseInt(t1.getText());
-        int fact=factorial(value);
+        int value=Integer.parseInt(t1.getText()); //5
+        int fact=factorial(value); //120
         t2.setText(String.valueOf(fact));
     }
 
-
 }
+
 int factorial(int n){
     if(n==0)
     {

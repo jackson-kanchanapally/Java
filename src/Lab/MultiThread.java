@@ -52,9 +52,9 @@ class Rand extends Thread{
 }
 
 public class MultiThread {
-    public static void main(String args)
+    public static void main(String args[])
     {
-        Rand ra_n=new Rand();
-        ra_n.start();
+        Rand ra=new Rand();
+        ra.start();
     }
 }
