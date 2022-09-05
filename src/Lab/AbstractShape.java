@@ -2,7 +2,6 @@ import java.util.*;
 
 abstract class Shape {
     public int x, y;
-
     public abstract void printArea();
 }
 
