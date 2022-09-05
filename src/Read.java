@@ -11,6 +11,7 @@ public class Read {
                 System.out.print((char)d);
                 d=r.read();
             }
+            r.close();
         }
         catch(IOException e)
         {
